@@ -1,0 +1,49 @@
+<div class="view">
+    <div class="container">
+        <header>
+            <h3><span class="glyphicon glyphicon-lock"></span> ログイン</h3>
+        </header>
+        <br />
+        <form [formGroup]="loginForm" (ngSubmit)="submit(loginForm)" class="login-form" novalidate>
+            <div class="login">
+                <div class="row">
+                    <div class="col-md-3">
+                        メールアドレス:
+                    </div>
+                    <div class="col-md-9">
+                        <input type="email" name="email" class="form-control" formControlName="email" />
+                        <div class="alert alert-danger" [hidden]="loginForm.controls.email.untouched || loginForm.controls.email.valid">
+                            メールアドレスを正しく入力してください。
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        パスワード:
+                    </div>
+                    <div class="col-md-9">
+                        <input type="password" name="password" class="form-control" formControlName="password" />
+                        <div class="alert alert-danger" [hidden]="loginForm.controls.password.untouched || loginForm.controls.password.valid">
+                            パスワードを正しく入力してください。 (６桁以上の数字と英文字を指定してください。)
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-success" [disabled]="!loginForm.valid">ログイン</button>
+                    </div>
+                </div>
+                <br />
+                <div class="statusRow">
+                    <br />
+                    <div class="label label-important" *ngIf="errorMessage">
+                        <span class="glyphicon glyphicon-thumbs-down icon-white"></span>&nbsp;&nbsp;エラー情報: {{ errorMessage }}
+                    </div>
+                </div>
+            </div>
+        </form>
+        
+    </div>
+</div>

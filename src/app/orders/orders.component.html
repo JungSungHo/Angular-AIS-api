@@ -1,0 +1,43 @@
+<div class="customers view indent">
+    <div class="container">
+        <header>
+            <h3>
+                <span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;注文情報
+            </h3>
+        </header>
+        <br />
+
+        <div class="container">
+            <div *ngIf="customers">
+
+                <div class="row" *ngFor="let customer of customers;trackBy:trackbyService.customer">
+                    <h4>{{ customer.firstName | capitalize }} {{ customer.lastName | capitalize }}</h4>
+                    <br />
+                    <table *ngIf="customer.orders && customer.orders.length" class="table table-striped table-hover orders-table">
+                        <tr *ngFor="let order of customer.orders;trackBy:trackbyService.order">
+                            <td>{{order.productName}}</td>
+                            <td class="text-right">{{ order.itemCost | currency:'JPY':'symbol' }}</td>    
+                        </tr>
+                        <tr class="summary-border">
+                            <td>&nbsp;</td>
+                            <td class="text-right">{{ customer.orderTotal | currency:'JPY':'symbol' }}
+                        </tr>
+                    </table>
+                    <div *ngIf="!customer.orders || !customer.orders.length">
+                        注文情報がありません。
+                    </div> 
+                </div>
+
+                <cm-pagination [hidden]="!customers"
+                    [totalItems]="totalRecords" 
+                    [pageSize]="pageSize" 
+                    (pageChanged)="pageChanged($event)"></cm-pagination>
+
+            </div>
+            <div *ngIf="!customers">
+                顧客情報がありません。
+            </div>
+        </div>
+
+    </div>
+</div>

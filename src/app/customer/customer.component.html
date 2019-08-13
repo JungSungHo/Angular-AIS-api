@@ -1,0 +1,39 @@
+<div class="orders view">
+    <div class="container">
+        <header>
+            <h3><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;顧客情報</h3>
+        </header>
+        <br />
+        <div class="navbar">
+            <ul class="nav navbar-nav">
+                <li class="toolbar-item">
+                    <a routerLink="details" routerLinkActive="active">
+                       <span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;顧客情報の詳細
+                    </a>
+                </li>
+                <li class="toolbar-item">
+                    <a routerLink="orders" routerLinkActive="active">
+                        <span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;顧客の注文情報
+                    </a>
+                </li>
+                <li class="toolbar-item">
+                    <a routerLink="edit" routerLinkActive="active">
+                        <span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;顧客情報の更新
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <router-outlet></router-outlet>
+            <br />
+            <br />
+            <a routerLink="/customers">全ての顧客情報を見る</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

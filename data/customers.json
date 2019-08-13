@@ -1,0 +1,362 @@
+[
+      {
+            "id": 1,
+            "firstName": "田中",
+            "lastName": "博之",
+            "gender": "male",
+            "address": "１丁目１－１１",
+            "city": "札幌市",
+            "state": {
+                "abbreviation": "Hokkaido",
+                "name": "北海道"
+            },
+            "orders": [
+                {"productName": "PCソフト", "itemCost": 5000},
+                {"productName": "ペット用品", "itemCost": 20000}
+            ],
+            "latitude": 33.299,
+            "longitude": -111.963
+      },
+      {
+            "id": 2,
+            "firstName": "松田",
+            "lastName": "美穂",
+            "gender": "female",
+            "address": "２丁目１－２",
+            "city": "青森市",
+            "state": {
+                "abbreviation": "Aomori",
+                "name": "青森県"
+            },
+            "orders": [
+                {"productName": "ミュージック", "itemCost": 1200},
+                {"productName": "カメラ", "itemCost": 30000}
+            ],
+            "latitude": 33.037,
+            "longitude": -117.291
+      },
+      {
+            "id": 3,
+            "firstName": "小島",
+            "lastName": "銀太郎",
+            "gender": "male",
+            "address": "ももタウン１０１号",
+            "city": "福島市",
+            "state": {
+                "abbreviation": "Fukushima",
+                "name": "福島県"
+            },
+            "orders": [
+                {"productName": "おもちゃ", "itemCost": 7000},
+                {"productName": "帽子", "itemCost": 5500},
+                {"productName": "オフィス用品", "itemCost": 16000}
+            ],
+            "latitude": 47.596,
+            "longitude": -122.331
+      },
+      {
+            "id": 4,
+            "firstName": "山田",
+            "lastName": "由美",
+            "gender": "female",
+            "address": "３丁目１２－１１",
+            "city": "川越市",
+            "state": {
+                "abbreviation": "Saitama",
+                "name": "埼玉県"
+            },
+            "orders": [
+                {"productName": "サングラス", "itemCost": 25000},
+                {"productName": "食品", "itemCost": 13000}
+            ],
+            "latitude": 33.299,
+            "longitude": -111.963
+      },
+      {
+            "id": 5,
+            "firstName": "黒田",
+            "lastName": "健二",
+            "gender": "male",
+            "address": "３－１－２",
+            "city": "渋谷区",
+            "state": {
+                "abbreviation": "Tokyo",
+                "name": "東京都"
+            },
+            "orders": [
+                {"productName": "ゲームソフト", "itemCost": 6000},
+                {"productName": "パソコン", "itemCost": 136000}
+            ],
+            "latitude": 32.782927,
+            "longitude": -96.806191
+      },
+      {
+            "id": 6,
+            "firstName": "高橋",
+            "lastName": "幸雄",
+            "gender": "male",
+            "address": "１丁目１８－２",
+            "city": "品川区",
+            "state": {
+                "abbreviation": "Tokyo",
+                "name": "東京都"
+            },
+            "orders": [
+                {"productName": "ラケット", "itemCost": 13900},
+                {"productName": "ボール", "itemCost": 1999}
+            ],
+            "latitude": 28.384238,
+            "longitude": -81.564103
+      },
+      {
+            "id": 7,
+            "firstName": "和田",
+            "lastName": "俊介",
+            "gender": "male",
+            "address": "１－１６－１８テストマンション１０１号",
+            "city": "調布市",
+            "state": {
+                "abbreviation": "Tokyo",
+                "name": "東京都"
+            },
+            "orders": [
+                {"productName": "食品", "itemCost": 5700},
+                {"productName": "飲料", "itemCost": 1300},
+                {"productName": "お酒", "itemCost": 3000}
+            ],
+            "latitude": 35.727985,
+            "longitude": -78.797594
+      },
+      {
+            "id": 8,
+            "firstName": "前田",
+            "lastName": "百合子",
+            "gender": "female",
+            "address": "１－１１－１２３",
+            "city": "山口市",
+            "state": {
+                "abbreviation": "Yamaguchi",
+                "name": "山口県"
+            },
+            "orders": [
+                {"productName": "DIY", "itemCost": 56000},
+                {"productName": "ドラック", "itemCost": 3900}
+            ],
+            "latitude": 33.809898,
+            "longitude": -117.918757
+      },
+      {
+            "id": 9,
+            "firstName": "青山",
+            "lastName": "健太",
+            "gender": "male",
+            "address": "１－６番地",
+            "city": "大阪市",
+            "state": {
+                "abbreviation": "Osaka",
+                "name": "大阪府"
+            },
+            "orders": [
+                {"productName": "野球用品", "itemCost": 28000},
+                {"productName": "シューズ", "itemCost": 13000}
+            ],
+            "latitude": 28.384238,
+            "longitude": -81.564103
+      },
+      {
+            "id": 10,
+            "firstName": "星野",
+            "lastName": "柚木",
+            "gender": "female",
+            "address": "ブリッジマンション",
+            "city": " 静岡市",
+            "state": {
+                "abbreviation": "Shizuoka",
+                "name": "静岡県"
+            },
+            "orders": [
+                {"productName": "文具", "itemCost": 4300},
+                {"productName": "ペット用品", "itemCost": 3200},
+                {"productName": "食品", "itemCost": 4500}
+            ],
+            "latitude": 33.762297, 
+            "longitude": -84.392953
+      },
+      {
+            "id": 11,
+            "firstName": "澤田",
+            "lastName": "和希",
+            "gender": "male",
+            "address": "島根大学",
+            "city": "松江市",
+            "state": {
+                "abbreviation": "Shimane",
+                "name": "島根県"
+            },
+            "latitude": 34.042552,
+            "longitude": -118.266429
+      },
+      {
+            "id": 12,
+            "firstName": "橋本",
+            "lastName": "和人",
+            "gender": "male",
+            "address": "３丁目１６９９番地",
+            "city": "広島市",
+            "state": {
+                "abbreviation": "Hiroshima",
+                "name": "広島県"
+            },
+            "latitude": 32.782927,
+            "longitude": -96.806191
+      },
+      {
+            "id": 13,
+            "firstName": "山本",
+            "lastName": "道治",
+            "gender": "male",
+            "address": "名古屋大学",
+            "city": "名古屋市",
+            "state": {
+                "abbreviation": "Aichi",
+                "name": "愛知県"
+            },
+            "orders": [
+                {"productName": "車", "itemCost": 13600000},
+                {"productName": "ワックス", "itemCost": 500},
+                {"productName": "オイルフィルター", "itemCost": 6400}
+            ],
+            "latitude": 40.725037,
+            "longitude": -74.004903
+      },
+      {
+            "id": 14,
+            "firstName": "嶋田",
+            "lastName": "めい",
+            "gender": "female",
+            "address": "中央区",
+            "city": "大阪市",
+            "state": {
+                "abbreviation": "Osaka",
+                "name": "大阪府"
+            },
+            "latitude": 40.725037,
+            "longitude": -74.004903
+      },
+      {
+            "id": 15,
+            "firstName": "齋藤",
+            "lastName": "文克",
+            "gender": "male",
+            "address": "問屋町１－１１",
+            "city": "高崎市",
+            "state": {
+                "abbreviation": "Gunma",
+                "name": "群馬県"
+            },
+            "latitude": 41.028726,
+            "longitude": -73.758261
+      },
+      {
+            "id": 16,
+            "firstName": "石井",
+            "lastName": "さら",
+            "gender": "female",
+            "address": "日立マンション１０５号",
+            "city": "日立市",
+            "state": {
+                "abbreviation": "Ibaraki",
+                "name": "茨城県"
+            },
+            "latitude": 36.091824,
+            "longitude": -115.174247
+      },
+      {
+            "id": 17,
+            "firstName": "長澤",
+            "lastName": "小太郎",
+            "gender": "male",
+            "address": "中央区１－２－３",
+            "city": "横浜市",
+            "state": {
+                "abbreviation": "Kanagawa",
+                "name": "神奈川県"
+            },
+            "latitude": 29.750163,
+            "longitude": -95.362769
+      },
+      {
+            "id": 18,
+            "firstName": "高崎",
+            "lastName": "風香",
+            "gender": "female",
+            "address": "北区１－２－３",
+            "city": "神戸市",
+            "state": {
+                "abbreviation": "Hyogo",
+                "name": "兵庫県"
+            },
+            "latitude": 47.596,
+            "longitude": -122.331
+      },
+      {
+            "id": 19,
+            "firstName": "石井",
+            "lastName": "佐緒里",
+            "gender": "female",
+            "address": "博多区６－７－８",
+            "city": "福岡市",
+            "state": {
+                "abbreviation": "Fukuoka",
+                "name": "福岡県"
+            },
+            "latitude": 41.386444, 
+            "longitude": 2.111988
+      },
+      {
+            "id": 20,
+            "firstName": "飯島",
+            "lastName": "花蓮",
+            "gender": "female",
+            "address": "中央区中央マンション９１２号",
+            "city": "大阪市",
+            "state": {
+                "abbreviation": "Osaka",
+                "name": "大阪府"
+            },
+            "latitude": 64.120278, 
+            "longitude": -21.830471
+      },
+      {
+            "id": 21,
+            "firstName": "加藤",
+            "lastName": "健一",
+            "gender": "male",
+            "address": "立川ブラインド１３０４号",
+            "city": "立川市",
+            "state": {
+                "abbreviation": "Tokyo",
+                "name": "東京都"
+            },
+            "orders": [
+                {"productName": "テレビ", "itemCost": 680000},
+                {"productName": "スピーカー", "itemCost": 140000}
+            ],
+            "latitude": 47.341337, 
+            "longitude": 8.582503
+      },
+      {
+            "id": 22,
+            "firstName": "小林",
+            "lastName": "誠",
+            "gender": "male",
+            "address": "１－１１－１２",
+            "city": "那覇市",
+            "state": {
+                "abbreviation": "Okinawa",
+                "name": "沖縄県"
+            },
+            "latitude": -22.919369, 
+            "longitude": -43.181836
+      }
+]
