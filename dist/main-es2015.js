@@ -136,11 +136,6 @@ const app_routes = [
     { path: 'orders', data: { preload: true }, loadChildren: () => __webpack_require__.e(/*! import() | orders-orders-module */ "orders-orders-module").then(__webpack_require__.bind(null, /*! ./orders/orders.module */ "./src/app/orders/orders.module.ts")).then(m => m.OrdersModule) },
     { path: 'about', loadChildren: () => __webpack_require__.e(/*! import() | about-about-module */ "about-about-module").then(__webpack_require__.bind(null, /*! ./about/about.module */ "./src/app/about/about.module.ts")).then(m => m.AboutModule) },
     { path: '**', pathMatch: 'full', redirectTo: '/customers' } // catch any unfound routes and redirect to home page
-    // NOTE: If you're using Angular 7 or lower you'll lazy loads routes the following way
-    // { path: 'customers/:id', data: { preload: true }, loadChildren: 'app/customer/customer.module#CustomerModule' },
-    // { path: 'customers', loadChildren: 'app/customers/customers.module#CustomersModule' },
-    // { path: 'orders', data: { preload: true }, loadChildren: 'app/orders/orders.module#OrdersModule' },
-    // { path: 'about', loadChildren: 'app/about/about.module#AboutModule' },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -1372,16 +1367,10 @@ let LoggerService = class LoggerService {
         if (!_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].production) {
             console.log(msg);
         }
-        else {
-            // AppInsights
-        }
     }
     logError(msg) {
         if (!_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].production) {
             console.error(msg);
-        }
-        else {
-            // AppInsights
         }
     }
 };
@@ -2507,7 +2496,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\jungs\Angular-AIS\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\jungs\Angular-AIS-api\src\main.ts */"./src/main.ts");
 
 
 /***/ })
