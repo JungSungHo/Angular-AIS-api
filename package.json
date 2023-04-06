@@ -48,6 +48,6 @@
     "tslint": "~5.11.0",
     "typescript": "~3.4.5",
     "@types/googlemaps": "3.37.0",
-    "angular-playground": "^6.0.1"
+    "angular-playground": "^10.1.0"
   }
 }
